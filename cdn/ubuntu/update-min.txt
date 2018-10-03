@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "Start Script";echo "";echo "-- Update --";echo "";sudo apt-get update -y;echo "";echo "-- Upgrade --";echo "";sudo apt-get upgrade -y;echo "";echo "-- Force Upgrade --";echo "";sudo apt-get dist-upgrade -y;echo "";echo "-- Auto Remove --";echo "";sudo apt-get autoremove -y;echo "";echo "End Script";
